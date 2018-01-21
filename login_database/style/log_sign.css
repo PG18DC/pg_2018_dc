@@ -1,0 +1,47 @@
+/*input[type=textbox]:focus, input[type=password]:focus {
+    background-color: #F1F1F1;
+    outline: none;
+}
+input[type=textbox], input[type=password] {
+    width: 30%;
+    padding: 15px;
+    margin: 5px 0 5px 0;
+    display: inline-block;
+    border: none;
+    background: #e6e6e6;
+}
+label{
+
+	
+}*/
+div.fm1{
+  	margin: auto;
+  	
+    width: 500px;
+    border: 3px solid black; /* colore bordi div*/
+    padding: 10px;
+
+
+}
+input[type=textbox],input[type=password]{
+	border-color: black; /* colore bordi textbox */
+	border: 3px solid;
+	width: 350px;
+	padding:15px;
+}
+div.fm2{
+position:relative;
+
+}
+
+input.showhi{
+
+	background-color: transparent;
+	border: 0;
+	position: absolute;
+	right: 70px; /*posizione destra o sinistra*/
+    top: 15px; /* altezza bottone*/
+    outline:none;
+
+}
+
